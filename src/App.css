@@ -1,33 +1,162 @@
 .App {
+  height: 100%;
+}
+
+.brand{
   text-align: center;
+  background-image: url('./image/Keyboard.png') ;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  width: 100%; 
+  color: white;
+  height: 40vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+
+#headLogo{
+  height: auto;
+  width: 410px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navLogo { 
+  height: 60px;
+  width: auto;
+  float: left;
+  margin: 10px;
+  margin-left: 15px;
+ }
+
+ .navs {
+   float: right;
+   margin: 10px;
+   margin-top: 25px;
+   color: white;
+    font-size: 16px;
+    line-height: 10px;
+ }
+ .navBar {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 5px 90px;
+  /* box-shadow: 0px 7px 9px grey; */
+}
+
+#regDeco{
+  background-color: rgb(255, 255, 255);
+  height: 100vh
+}
+#reglogo{
+  margin-top: 90px;
+}
+
+.registerCard{
+  text-align: center;
+  width: 45vw;
+  margin-top: 16vh;
+  padding: 15px;
+  box-shadow: 0px 7px 9px rgba(97, 96, 96, 0.616);
+  align-self: center;
+}
+
+.btn{
+  margin-top: 2px;
+}
+
+input[type=text],[type=password] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+input[type=text]:focus,[type=password]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+
+
+input[type=text]:placeholder,[type=password]:placeholder {
+  color: #cccccc;
+}
+
+.QuestionPage{
+  height: 60vh;
+  background-color: white;
+}
+
+.tag{
+  background-color: rgb(218, 212, 212);
+  margin: 3px;
+  margin-top: 6px;
+  padding: 0px;
+  font-size: 20px;
+    border-radius: 6px;
+    padding: 10px;
+  display: block
+}
+
+.Question{
+  font-size: 20px;
+  font-weight: bold;
+}
+#option{
+  text-align: center;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  display: block;
+}
+
+
+#options .tag:hover{
+  background-color: rgb(86, 41, 158);
+  color: white;
+}
+#options .tag:disabled{
+  background-color: rgb(30, 29, 32);
+  color: white;
+}
+.continue{
+  height: fit-content;
+  margin-top: 20px;
+}
+.continue:hover{
+  background-color: rgb(86, 41, 158);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#waitNext{
+  text-align: center;
+  margin-left: 15px;
+  font-size: 19px;
+  padding: 5px;
+}
+.timer{
+  margin-left: 12px;
+}
+.timerCircle{
+  height: 110px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#waitImg{
+  margin-right: auto;
+  margin-left: 150px;
+  text-align: center;
 }
