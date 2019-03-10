@@ -1,0 +1,19 @@
+{
+  "main.css": "/QuizPortal/static/css/main.98127b9d.chunk.css",
+  "main.js": "/QuizPortal/static/js/main.1a16ed86.chunk.js",
+  "main.js.map": "/QuizPortal/static/js/main.1a16ed86.chunk.js.map",
+  "runtime~main.js": "/QuizPortal/static/js/runtime~main.ed20a531.js",
+  "runtime~main.js.map": "/QuizPortal/static/js/runtime~main.ed20a531.js.map",
+  "static/css/2.e00c9b82.chunk.css": "/QuizPortal/static/css/2.e00c9b82.chunk.css",
+  "static/js/2.64c89def.chunk.js": "/QuizPortal/static/js/2.64c89def.chunk.js",
+  "static/js/2.64c89def.chunk.js.map": "/QuizPortal/static/js/2.64c89def.chunk.js.map",
+  "index.html": "/QuizPortal/index.html",
+  "precache-manifest.867e68f867ea8acd69ba1656724580a0.js": "/QuizPortal/precache-manifest.867e68f867ea8acd69ba1656724580a0.js",
+  "service-worker.js": "/QuizPortal/service-worker.js",
+  "static/css/2.e00c9b82.chunk.css.map": "/QuizPortal/static/css/2.e00c9b82.chunk.css.map",
+  "static/css/main.98127b9d.chunk.css.map": "/QuizPortal/static/css/main.98127b9d.chunk.css.map",
+  "static/media/App.css": "/QuizPortal/static/media/Keyboard.a3a29c2d.png",
+  "static/media/Logo.png": "/QuizPortal/static/media/Logo.182b63bb.png",
+  "static/media/hackgridLogo.png": "/QuizPortal/static/media/hackgridLogo.a80bfdd5.png",
+  "static/media/quiz.png": "/QuizPortal/static/media/quiz.eca3a5d8.png"
+}
